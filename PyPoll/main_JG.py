@@ -60,7 +60,7 @@ with open("main_output_JG.txt","w") as txtfile:
     print(f"-"*25, file=txtfile)
 
     for k, (v, z) in combined_data.items():
-    print(f"{k}: {z}00% ({v})", file=txtfile)
+        print(f"{k}: {z}00% ({v})", file=txtfile)
     
     print(f"-"*25, file=txtfile)
     print(f"Winner: {winner}", file=txtfile)
